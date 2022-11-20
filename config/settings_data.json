@@ -73,6 +73,12 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "show_reviews": true
+        }
       }
     },
     "content_for_index": []

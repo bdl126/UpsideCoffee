@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "3a1cc636-6e59-43b7-ad1a-44994a7afbd1": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax included"
+          }
+        },
+        "a606f9c7-5e0c-4fad-914c-057481eaab4c": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "Ship in 7 days"
+          }
+        }
+      },
+      "block_order": [
+        "3a1cc636-6e59-43b7-ad1a-44994a7afbd1",
+        "a606f9c7-5e0c-4fad-914c-057481eaab4c"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "blocks": {
+        "e5103324-b755-4ce2-bcec-5732c01e1564": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax not included"
+          }
+        },
+        "518bdc78-134a-4d87-9252-c08eecbf06ae": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "Ship in 50 days"
+          }
+        }
+      },
+      "block_order": [
+        "e5103324-b755-4ce2-bcec-5732c01e1564",
+        "518bdc78-134a-4d87-9252-c08eecbf06ae"
+      ],
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "294507ad-e0c9-43fc-91b7-fee4c3fe8d7b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test"
+          }
+        },
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>test text<\/p>"
+          }
+        },
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "test button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-0",
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-1",
+        "template--17010849743128__294507ad-e0c9-43fc-91b7-fee4c3fe8d7b-166896231615cd58b8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "294507ad-e0c9-43fc-91b7-fee4c3fe8d7b"
+  ]
+}
