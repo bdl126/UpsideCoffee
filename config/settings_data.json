@@ -1,0 +1,80 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_pinterest_link": "https:\/\/pinterest.com\/",
+    "social_instagram_link": "http:\/\/instagram.com\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Upside_Coffe.png",
+          "logo_width": 170,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "91610a4f-6a64-45f0-8c44-3e0533411423": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Naviguation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "26302886-0d51-4d25-9f2a-e84c2a169113": {
+            "type": "text",
+            "settings": {
+              "heading": "Upside Coffe",
+              "subtext": "<p>📍<strong>4194 MapleView Drive 33607 FL<\/strong><\/p><p>☎️ <strong>727-955-3308<\/strong><\/p><p>📩<strong>Hello@upsidecoffe.com<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "91610a4f-6a64-45f0-8c44-3e0533411423",
+          "footer-0",
+          "26302886-0d51-4d25-9f2a-e84c2a169113"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "4 Coffee Lovers ❤️",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
