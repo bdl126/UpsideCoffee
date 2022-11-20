@@ -14,11 +14,16 @@
           "settings": {
             "shipping_notice_text": "Ship in 7 days"
           }
+        },
+        "ada17d0a-df9d-4882-adc8-9144f4b2d7c7": {
+          "type": "product_price_block",
+          "settings": {}
         }
       },
       "block_order": [
         "3a1cc636-6e59-43b7-ad1a-44994a7afbd1",
-        "a606f9c7-5e0c-4fad-914c-057481eaab4c"
+        "a606f9c7-5e0c-4fad-914c-057481eaab4c",
+        "ada17d0a-df9d-4882-adc8-9144f4b2d7c7"
       ],
       "settings": {
         "show_reviews": true
