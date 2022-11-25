@@ -1,0 +1,52 @@
+{{ 'component-testimonials-slideshow.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'testimonials-slideshow.js' | asset_url }}" defer="defer"></script>
+
+<div class="testimonials">
+  {% for block in section.blocks %}
+  <div class="testimonial">
+    {%render "icon-quotes"%}
+
+      <p>{{block.settings.reviewer_comment}}</p>
+      <div class="happy-customer">
+          <img src="{{block.settings.reviewer_image | img_url}}" alt="">
+          <p class="name">{{block.settings.reviewer_name}}</p>
+      </div>
+  </div>
+{% endfor %}
+</div>
+
+{% schema%}
+{
+    "name":"Testimonials Slideshow",
+    "blocks" : [
+        {
+            "type":"reviewer_block",
+            "name": "Reviewer Name",
+            "settings": [
+                {
+                    "id": "reviewer_name",
+                    "label": "Reviewer Name",
+                    "type": "text"
+                },
+                {
+                    "id": "reviewer_comment",
+                    "label": "Reviewer comment",
+                    "type" : "richtext"
+                },
+                {
+                    "id": "reviewer_image",
+                    "label": "Reviewer Photo",
+                    "type": "image_picker"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+          "name": "Testimonials ",
+          "category": "Custom"
+        }
+      ]
+}
+{%endschema%}

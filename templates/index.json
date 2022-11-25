@@ -145,6 +145,59 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "28939f62-6fb4-4bf1-8345-9042873232c7": {
+      "type": "testimonial-slide-show",
+      "blocks": {
+        "1b8255b5-166f-4aca-89bf-d2130e1a4a2c": {
+          "type": "reviewer_block",
+          "settings": {
+            "reviewer_name": "Lucie",
+            "reviewer_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum purus. Suspendisse eu convallis.<\/p>",
+            "reviewer_image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "0cceb903-febc-4ca7-93de-7df9be0eb0a9": {
+          "type": "reviewer_block",
+          "settings": {
+            "reviewer_name": "Tony",
+            "reviewer_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum purus. Suspendisse eu convallis.<\/p>",
+            "reviewer_image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "49838679-4ced-4fb0-bcdf-08eccbadfc10": {
+          "type": "reviewer_block",
+          "settings": {
+            "reviewer_name": "Clarence",
+            "reviewer_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum purus. Suspendisse eu convallis.<\/p>",
+            "reviewer_image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "70852bbc-0c8e-4ad6-9783-0bc2a853ae04": {
+          "type": "reviewer_block",
+          "settings": {
+            "reviewer_name": "Ann",
+            "reviewer_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum purus. Suspendisse eu convallis.<\/p>",
+            "reviewer_image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        },
+        "f3aff97c-dffe-435a-b4c7-1e15976d24e6": {
+          "type": "reviewer_block",
+          "settings": {
+            "reviewer_name": "Robert",
+            "reviewer_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum purus. Suspendisse eu convallis.<\/p>",
+            "reviewer_image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1b8255b5-166f-4aca-89bf-d2130e1a4a2c",
+        "0cceb903-febc-4ca7-93de-7df9be0eb0a9",
+        "49838679-4ced-4fb0-bcdf-08eccbadfc10",
+        "70852bbc-0c8e-4ad6-9783-0bc2a853ae04",
+        "f3aff97c-dffe-435a-b4c7-1e15976d24e6"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -153,6 +206,7 @@
     "386ec122-5dae-4a31-83d8-2a8cfcd8a804",
     "image_text",
     "00b91d33-476c-4952-b2c8-44e747bf216f",
-    "e7cfa191-648e-4b33-9bc0-f3736a17ffb8"
+    "e7cfa191-648e-4b33-9bc0-f3736a17ffb8",
+    "28939f62-6fb4-4bf1-8345-9042873232c7"
   ]
 }
