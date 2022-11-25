@@ -49,3 +49,16 @@
 .accordion__content img {
   max-width: 100%;
 }
+
+.info-rating {
+ display: flex;
+}
+
+.info-rating svg{
+  width: 30px;
+  margin: 0 5px;
+  max-height: 30px;
+ }
+td {
+  width: 100%;
+}
